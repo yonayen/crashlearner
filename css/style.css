@@ -1,41 +1,62 @@
 * {
-	box-sizing: border-box;
 	outline: red 1px solid;
+	box-sizing: border-box;
 }
 
+body, h1, h2, h3, h4, h5 {
+	margin: 0;
+}
 
 .navbar {
 	position: fixed;
+	display: block;
+	width: 100%;
 }
 
 /* Marketing statement */
 .banner {
-	margin-top: 2rem;
+	margin-top: 0;
+	display: block;
+	margin: 0 auto;
+	width: 100%;
 }
 
 /* Contains three key parts */
 .middle-section {
-	margin-top: 5rem;
+	margin-top: 15rem;
+	display: inline-block;
+	width: 100%;
 }
 
+.skills, .portfolio, .interview-skills {
+	width: 33%;
+}
+
+
 .middle-section > .skills {
+	display: inline-block;
 
 }
 
 .middle-section > .portfolio {
+	display: inline-block;
 
 }
 
 .middle-section > .interview-skills {
+	display: inline-block;
 
 }
 
 /* Contains trending items - success profiles */
 .right-column {
+	display: inline-block;
 
 }
 
 
 .footer {
+	display: block;
 	position: fixed;
+	width: 100%;
 }
