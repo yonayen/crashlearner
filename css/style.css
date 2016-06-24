@@ -2,3 +2,40 @@
 	box-sizing: border-box;
 	border: solid 1px #134983;
 }
+
+
+.navbar {
+
+}
+
+/* Marketing statement */
+.banner {
+
+}
+
+/* Contains three key parts */
+.middle-section {
+
+}
+
+.middle-section > .skills {
+
+}
+
+.middle-section > .portfolio {
+
+}
+
+.middle-section > .interview-skills {
+
+}
+
+/* Contains trending items - success profiles */
+.right-column {
+
+}
+
+
+.footer {
+
+}
