@@ -1,21 +1,21 @@
 * {
 	box-sizing: border-box;
-	border: solid 1px #134983;
+	outline: red 1px solid;
 }
 
 
 .navbar {
-
+	position: fixed;
 }
 
 /* Marketing statement */
 .banner {
-
+	margin-top: 2rem;
 }
 
 /* Contains three key parts */
 .middle-section {
-
+	margin-top: 5rem;
 }
 
 .middle-section > .skills {
@@ -37,5 +37,5 @@
 
 
 .footer {
-
+	position: fixed;
 }
