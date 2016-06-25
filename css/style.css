@@ -18,14 +18,15 @@ body, h1, h2, h3, h4, h5 {
 .banner {
 	margin-top: 0;
 	display: block;
-	margin: 0 auto;
 	width: 100%;
+	padding: 6em 1em;
 }
 
 /* Contains three key parts */
 .middle-section {
 	display: inline-block;
 	width: 100%;
+	margin-top: 1em;
 }
 
 .skills, .portfolio, .interview-skills {
@@ -35,23 +36,28 @@ body, h1, h2, h3, h4, h5 {
 
 .middle-section > .skills {
 	display: inline-block;
+	margin: 1em 1em;
 
 }
 
 .middle-section > .portfolio {
 	display: inline-block;
+	margin: 1em 1em;
 
 }
 
 .middle-section > .interview-skills {
 	display: inline-block;
+	margin: 1em 1em;
 
 }
 
 /* Contains trending items - success profiles */
 .right-column {
 	display: inline-block;
-
+	margin: 1em 1em;
+	width: 100%;
+	padding: 1em 1em;
 }
 
 
@@ -59,4 +65,5 @@ body, h1, h2, h3, h4, h5 {
 	display: block;
 	position: fixed;
 	width: 100%;
+	margin-top: 1em;
 }
