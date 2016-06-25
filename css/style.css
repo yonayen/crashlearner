@@ -8,9 +8,10 @@ body, h1, h2, h3, h4, h5 {
 }
 
 .navbar {
-	position: fixed;
+	position: relative;
 	display: block;
 	width: 100%;
+	padding: 2em 1em;
 }
 
 /* Marketing statement */
@@ -23,13 +24,12 @@ body, h1, h2, h3, h4, h5 {
 
 /* Contains three key parts */
 .middle-section {
-	margin-top: 15rem;
 	display: inline-block;
 	width: 100%;
 }
 
 .skills, .portfolio, .interview-skills {
-	width: 33%;
+	width: 100%;
 }
 
 
