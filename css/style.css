@@ -8,14 +8,29 @@ body, h1, h2, h3, h4, h5 {
 }
 
 .wrapper {
-	margin:;
-	padding:;
+	margin: 1em auto;
+	padding: 0em auto;
 }
+
 .navbar {
 	position: relative;
-	display: block;
+	display: inline-block;
 	width: 100%;
-	padding: 2em 1em;
+	padding: 0em 1em;
+	background-color: #FFF890;
+}
+
+.logo {
+	display: inline-block;
+}
+
+.navbar > ul {
+	list-style: none;
+	display: inline-block;
+}
+
+ul li {
+	display: inline;
 }
 
 /* Marketing statement */
@@ -23,7 +38,7 @@ body, h1, h2, h3, h4, h5 {
 	margin: 0 auto;
 	display: block;
 	width: 100%;
-	padding: 6em 1em;
+	padding: 0.5em 1em;
 }
 
 /* Contains three key parts */
