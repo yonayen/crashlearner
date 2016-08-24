@@ -7,6 +7,10 @@ body, h1, h2, h3, h4, h5 {
 	margin: 0;
 }
 
+.wrapper {
+	margin:;
+	padding:;
+}
 .navbar {
 	position: relative;
 	display: block;
@@ -16,55 +20,56 @@ body, h1, h2, h3, h4, h5 {
 
 /* Marketing statement */
 .banner {
-	margin-top: 0;
+	margin: 0 auto;
 	display: block;
 	width: 100%;
 	padding: 6em 1em;
 }
 
 /* Contains three key parts */
-.middle-section {
+.testimonial {
 	display: inline-block;
 	width: 100%;
 	margin-top: 1em;
 }
 
-.skills, .portfolio, .interview-skills {
+.skill-tracker, .portfolio, .interview-skills {
 	width: 100%;
 }
 
 
-.middle-section > .skills {
+.skill-tracker {
 	display: inline-block;
 	margin: 1em 1em;
 
 }
 
-.middle-section > .portfolio {
+.portfolio {
 	display: inline-block;
 	margin: 1em 1em;
 
 }
 
-.middle-section > .interview-skills {
+.interview-skills {
 	display: inline-block;
 	margin: 1em 1em;
 
 }
 
-/* Contains trending items - success profiles */
+/* Contains trending items - success profiles 
 .right-column {
 	display: inline-block;
 	margin: 1em 1em;
 	width: 100%;
 	padding: 1em 1em;
 }
+*/
 
 
 .footer {
 	display: block;
 	position: relative;
 	width: 100%;
-	margin-top: 1em;
-	padding: 1.5em 0;
+	margin: 1em auto;
+	padding: 1.5em 1em;
 }
