@@ -8,15 +8,15 @@ body, h1, h2, h3, h4, h5 {
 }
 
 .wrapper {
-	margin: 1em auto;
-	padding: 0em auto;
+	margin: 0.5em 0.5em;
+	padding: 0.5em auto;
 }
 
 .navbar {
 	position: relative;
 	display: inline-block;
 	width: 100%;
-	padding: 0em 1em;
+	padding: 0em auto;
 	background-color: #FFF890;
 }
 
@@ -38,7 +38,15 @@ ul li {
 	margin: 0 auto;
 	display: block;
 	width: 100%;
-	padding: 0.5em 1em;
+	padding: 0em 0em;
+}
+
+.banner > .main-text {
+
+}
+
+.banner > .description-text {
+	
 }
 
 /* Contains three key parts */
